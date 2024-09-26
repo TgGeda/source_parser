@@ -1,4 +1,4 @@
-```markdown
+
 # Source Code Function Prototype Parser
 
 This script parses source code files to extract function prototypes, generating a summary report of the findings.  It supports multiple programming languages and utilizes the `tree-sitter` library for parsing.
@@ -51,6 +51,3 @@ The script uses a YAML configuration file (e.g., `parser_config.yaml`) to specif
 
 * Large files (larger than 1MB by default) are skipped to prevent excessive processing time.
 * Error messages are logged to the specified log file and also captured in the output report.
-
-
-```
